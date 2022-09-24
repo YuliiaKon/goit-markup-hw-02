@@ -55,8 +55,9 @@ color h: #212121;*/
     background:var(--button-background)
 }
 
-
-
+/*.site-nav.link.current {
+    color: var(--accent-color);
+}*/
 
 
  .hero {
