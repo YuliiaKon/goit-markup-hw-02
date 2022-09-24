@@ -32,7 +32,11 @@ color h: #212121;*/
     
         color: #FFFFFF;
  }
-
+ 
+.button-primery {
+    color: #FFFFFF;
+    background: #2196F3;
+}
  .our-team {
         background: #F5F4FA;
  }
