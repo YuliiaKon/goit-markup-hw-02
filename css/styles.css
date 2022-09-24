@@ -50,39 +50,31 @@ color h: #212121;*/
     color:var(--white-fog);
 }
 
+/* КНОПКИ*/
+
 .button-secondary {
     color:var(--primary-text-color);
     background:var(--button-background)
 }
 
-/*.site-nav.link.current {
-    color: var(--accent-color);
-}*/
-
-
- .hero {
-    background: #2F303A;
- }
-
- .hero-text {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    
-        color: #FFFFFF;
- }
-
-.button-primery {
+.button-secondary:hover {
     color: #FFFFFF;
     background: #2196F3;
 }
+
+ .button-primery:hover {
+     color: #FFFFFF;
+     background: #2196F3;
+ }
+
+/*.site-nav.link.current {
+    color: var(--accent-color);
+}
+*/
+
+
+
+
  .our-team {
         background: #F5F4FA;
  }
