@@ -50,7 +50,7 @@ color h: #212121;*/
     color:var(--white-fog);
 }
 
-.button-nav {
+.button-secondary {
     color:var(--primary-text-color);
     background:var(--button-background)
 }
