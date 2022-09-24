@@ -11,6 +11,7 @@ color h: #212121;*/
     --accent-color: #2196F3;
     --white-text: #FFFFFF;
     --white-fog: rgba(255, 255, 255, 0.6);
+    --button-background: #F5F4FA;
 }
 
 .logo
@@ -25,7 +26,7 @@ color h: #212121;*/
     list-style: none;
  }
 
-/* Кольори тексту*/
+/* Кольори тексту var*/
 
 .primary-link {
     color:var(--accent-color);
@@ -47,6 +48,11 @@ color h: #212121;*/
 
 .white-fog {
     color:var(--white-fog);
+}
+
+.button-nav {
+    color:var(--primary-text-color);
+    background:var(--button-background)
 }
 
 
