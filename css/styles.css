@@ -10,16 +10,48 @@ color h: #212121;*/
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --white-text: #FFFFFF;
+    --white-fog: rgba(255, 255, 255, 0.6);
 }
 
 .logo
  {color: #2196F3;}
+
+
 .site-nav
  {color: aqua;}
+
 
  .list {
     list-style: none;
  }
+
+/* Кольори тексту*/
+
+.primary-link {
+    color:var(--accent-color);
+}
+
+
+.primary-text {
+    color:var(--primary-text-color);
+}
+
+
+.title-text {
+    color:var(--title-text-color);
+}
+
+.white-text {
+    color:var(--white-text);
+}
+
+.white-fog {
+    color:var(--white-fog);
+}
+
+
+
+
 
  .hero {
     background: #2F303A;
