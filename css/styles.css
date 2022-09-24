@@ -5,6 +5,13 @@ background heroi: #F5F5F5;
 color logo: #2196F3 #000000
 color text: #757575;
 color h: #212121;*/
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-text: #FFFFFF;
+}
+
 .logo
  {color: #2196F3;}
 .site-nav
@@ -32,7 +39,7 @@ color h: #212121;*/
     
         color: #FFFFFF;
  }
- 
+
 .button-primery {
     color: #FFFFFF;
     background: #2196F3;
