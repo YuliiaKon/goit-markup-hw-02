@@ -14,12 +14,24 @@ color h: #212121;*/
     --button-background: #F5F4FA;
 }
 
+.body {
+    font-family: Roboto, sans-serif;
+}
+
 .logo
- {color: #2196F3;}
+ {color: #2196F3;
+    font-family: Raleway, bold;
+    font-size: 26px;
+    line-height: 1,19;
+}
 
 
 .site-nav
- {color: aqua;}
+ {color: aqua;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;}
 
 
  .list {
@@ -32,6 +44,13 @@ color h: #212121;*/
     color:var(--accent-color);
 }
 
+.primary-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-link:focus {
+    color: var(--accent-color);
+}
 
 .primary-text {
     color:var(--primary-text-color);
@@ -42,13 +61,31 @@ color h: #212121;*/
     color:var(--title-text-color);
 }
 
+
 .white-text {
     color:var(--white-text);
+}
+
+.white-text:hover {
+    color: var(--accent-color);
+}
+
+.white-text:focus {
+    color: var(--accent-color);
 }
 
 .white-fog {
     color:var(--white-fog);
 }
+
+.white-fog:hover {
+    color: var(--accent-color);
+}
+
+.white-fog:focus {
+    color: var(--accent-color);
+}
+
 
 /* КНОПКИ*/
 
@@ -62,7 +99,17 @@ color h: #212121;*/
     background: #2196F3;
 }
 
+.button-secondary:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
  .button-primery:hover {
+     color: #FFFFFF;
+     background: #2196F3;
+ }
+
+ .button-primery:focus {
      color: #FFFFFF;
      background: #2196F3;
  }
@@ -73,20 +120,10 @@ color h: #212121;*/
 */
 
 
-
-
  .our-team {
         background: #F5F4FA;
  }
 
- .project-link {
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
- }
 
  .footer {
         background: #2F303A;
