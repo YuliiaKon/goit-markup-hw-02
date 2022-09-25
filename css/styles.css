@@ -39,22 +39,41 @@ color h: #212121;*/
     list-style: none;
  }
 
+ .mail-header{
+    color: var(--accent-color);
+ }
+
+ .mail-header:hover{
+    color: var(--accent-color);
+ }
+
+.mail-header:focus {
+    color: var(--accent-color);
+}
+
+ .tel-header{
+    color: var(--title-text-color);
+ }
+
+ .tel-header:hover{
+    color: var(--accent-color);
+ }
+
+ .tel-header:focus{
+    color: var(--accent-color);
+ }
 /* Кольори тексту var*/
 
-.primary-link {
-    color:var(--accent-color);
+.nav-text {
+    color: var(--primary-text-color);
 }
 
-.primary-link:hover {
+.nav-text:hover {
     color: var(--accent-color);
 }
 
-.primary-link:focus {
+.nav-text:focus {
     color: var(--accent-color);
-}
-
-.primary-text {
-    color:var(--primary-text-color);
 }
 
 
