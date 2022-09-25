@@ -5,6 +5,9 @@ background heroi: #F5F5F5;
 color logo: #2196F3 #000000
 color text: #757575;
 color h: #212121;*/
+
+/*  Загальні стилі*/
+
 :root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
@@ -19,6 +22,8 @@ color h: #212121;*/
     color: var(--primary-text-color);
 }
 
+/* ШАПКА, header */
+
 .logo
  {color: #2196F3;
     font-family: Raleway, bold;
@@ -26,7 +31,6 @@ color h: #212121;*/
     line-height: 1,19;
     text-decoration: none;
 }
-
 
 .site-nav
  {color: aqua;
@@ -63,6 +67,7 @@ color h: #212121;*/
  .tel-header:focus{
     color: var(--accent-color);
  }
+
 /* Кольори тексту var*/
 
 .nav-text {
@@ -135,10 +140,12 @@ color h: #212121;*/
      background: #2196F3;
  }
 
+ /* Інші розділи, main */
+
  .our-team {
         background: #F5F4FA;
  }
-
+/* Футер */
 
  .footer {
         background: #2F303A;
