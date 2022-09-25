@@ -32,6 +32,14 @@ color h: #212121;*/
     text-decoration: none;
 }
 
+.web {
+ color: #2196F3;
+}
+
+.studio{ 
+ color: #212121;
+}
+
 .site-nav
  {color: aqua;
     font-weight: 500;
@@ -46,6 +54,10 @@ color h: #212121;*/
 
  .mail-header{
     color: var(--accent-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
  }
 
  .mail-header:hover{
@@ -58,6 +70,10 @@ color h: #212121;*/
 
  .tel-header{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
  }
 
  .tel-header:hover{
@@ -72,6 +88,10 @@ color h: #212121;*/
 
 .nav-text {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .nav-text:hover {
@@ -79,36 +99,6 @@ color h: #212121;*/
 }
 
 .nav-text:focus {
-    color: var(--accent-color);
-}
-
-
-.title-text {
-    color:var(--title-text-color);
-}
-
-
-.white-address {
-    color:var(--white-text);
-}
-
-.white-address:hover {
-    color: var(--accent-color);
-}
-
-.white-address:focus {
-    color: var(--accent-color);
-}
-
-.white-cont {
-    color:var(--white-fog);
-}
-
-.white-cont:hover {
-    color: var(--accent-color);
-}
-
-.white-cont:focus {
     color: var(--accent-color);
 }
 
@@ -130,18 +120,74 @@ color h: #212121;*/
     background: #2196F3;
 }
 
+.button-primery {
+    color: #FFFFFF;
+    background: #2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
  .button-primery:hover {
      color: #FFFFFF;
-     background: #2196F3;
+     background: #188CE8;
  }
 
  .button-primery:focus {
      color: #FFFFFF;
-     background: #2196F3;
+     background: #188CE8;
  }
 
  /* Інші розділи, main */
 
+.hero {
+        color: #FFFFFF;
+        background: #2F303A;
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        margin: 0 auto;
+        text-align: center;
+}
+.h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.title-text {
+    color: var(--title-text-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+
+.team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+}
+
+.job-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
  .our-team {
         background: #F5F4FA;
  }
@@ -151,12 +197,51 @@ color h: #212121;*/
         background: #2F303A;
  }
 
- .logo-footer {
-    color: var(--white-text);
+.web-footer {
+        color: #2196F3;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+.studio-footer {
+        color:#FFFFFF;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+}
+
+
+ .white-address {
+     color: var(--white-text);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
  }
- .logo-footer:hover {
+
+ .white-address:hover {
      color: var(--accent-color);
  }
- .logo-footer:focus {
+
+ .white-address:focus {
+     color: var(--accent-color);
+ }
+
+ .white-cont {
+     color: var(--white-fog);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+ }
+
+ .white-cont:hover {
+     color: var(--accent-color);
+ }
+
+ .white-cont:focus {
      color: var(--accent-color);
  }
