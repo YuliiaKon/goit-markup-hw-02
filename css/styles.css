@@ -15,7 +15,8 @@ color h: #212121;*/
 }
 
 .body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    color: var(--primary-text-color);
 }
 
 .logo
@@ -62,15 +63,15 @@ color h: #212121;*/
 }
 
 
-.white-text {
+.white-address {
     color:var(--white-text);
 }
 
-.white-text:hover {
+.white-address:hover {
     color: var(--accent-color);
 }
 
-.white-text:focus {
+.white-address:focus {
     color: var(--accent-color);
 }
 
@@ -113,6 +114,8 @@ color h: #212121;*/
      color: #FFFFFF;
      background: #2196F3;
  }
+
+
 
 /*.site-nav.link.current {
     color: var(--accent-color);
