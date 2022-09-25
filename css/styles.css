@@ -75,15 +75,15 @@ color h: #212121;*/
     color: var(--accent-color);
 }
 
-.white-fog {
+.white-cont {
     color:var(--white-fog);
 }
 
-.white-fog:hover {
+.white-cont:hover {
     color: var(--accent-color);
 }
 
-.white-fog:focus {
+.white-cont:focus {
     color: var(--accent-color);
 }
 
@@ -115,14 +115,6 @@ color h: #212121;*/
      background: #2196F3;
  }
 
-
-
-/*.site-nav.link.current {
-    color: var(--accent-color);
-}
-*/
-
-
  .our-team {
         background: #F5F4FA;
  }
@@ -130,4 +122,14 @@ color h: #212121;*/
 
  .footer {
         background: #2F303A;
+ }
+
+ .logo-footer {
+    color: var(--white-text);
+ }
+ .logo-footer:hover {
+     color: var(--accent-color);
+ }
+ .logo-footer:focus {
+     color: var(--accent-color);
  }
