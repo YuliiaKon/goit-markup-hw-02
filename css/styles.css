@@ -72,8 +72,8 @@ color h: #212121;*/
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14
-    letter-spacing: 0.02em;
+    line-height: 1,14;
+    letter-spacing:0.02em;
  }
 
  .tel-header:hover{
