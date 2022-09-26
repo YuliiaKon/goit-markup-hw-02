@@ -58,7 +58,7 @@ color h: #212121;*/
  }
 
  .mail-header{
-        color: var(--accent-color);
+        color: var(--title-text-color);
         font-style: normal;
         text-decoration: none;
         font-weight: 500;
