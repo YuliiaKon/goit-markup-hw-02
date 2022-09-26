@@ -41,19 +41,26 @@ color h: #212121;*/
 }
 
 .site-nav
- {color: aqua;
+ {  color: aqua;
+    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
 
  .list {
     list-style: none;
+    font-style: normal;
+    text-decoration: none;
  }
 
  .mail-header{
-    color: var(--accent-color);
+        color: var(--accent-color);
+        font-style: normal;
+        text-decoration: none;
         font-weight: 500;
         font-size: 14px;
         line-height: 1,14;
@@ -70,6 +77,8 @@ color h: #212121;*/
 
  .tel-header{
     color: var(--title-text-color);
+    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -84,10 +93,13 @@ color h: #212121;*/
     color: var(--accent-color);
  }
 
+ .cursor {cursor: pointer}
 /* Кольори тексту var*/
 
 .nav-text {
     color: var(--primary-text-color);
+    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -218,9 +230,14 @@ color h: #212121;*/
         letter-spacing: 0.03em;
 }
 
-
+ .address {
+    font-style: normal;
+    text-decoration: none;
+ }
  .white-address {
      color: var(--white-text);
+     font-family: 'Roboto';
+     font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1,71;
@@ -238,6 +255,8 @@ color h: #212121;*/
 
  .white-cont {
      color: var(--white-fog);
+     font-family: 'Roboto';
+     font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1,71;
